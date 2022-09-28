@@ -40,6 +40,7 @@ main {
     /* Text styles */
     text-align: center;
     color: white;
+    top-margin:10px;
     /* Background styles */
   background-image:      url('https://i0.wp.com/afghanistanembassy.org.uk/english/wp-content/uploads/2013/12/Mazar-e-Sharif-Blue-Mosque.jpg');
     background-size:95% 100%;

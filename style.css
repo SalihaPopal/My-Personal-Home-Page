@@ -1,11 +1,9 @@
-html{ 
+
+html{
   lang:en;
 }
-
 .title{
  mergin-top:0;
- 
-
 }
 body {
   font-family: Helvetica, Arial, Sans-Serif;
@@ -14,16 +12,13 @@ body {
   margin-right:0px;
   height: 100%;
 }
-
 /* THIS RELATES TO THE STYLING OF MAIN SECTION - anything between <main> and </main> */
 main {
  font-family: Helvetica, Arial, Sans-Serif;
  margin-top:0px;
  margin-left:90px;
  margin-right:90px;
-
 }
-
 /* THIS RELATES TO THE THREE IMAGES */
 .row {
   display: flex;
@@ -33,49 +28,39 @@ main {
   flex: 33.3%;
   padding: 205 px;
 }
-
 /* ALL OF THIS IS RELATING TO THE HERO */
 .hero {
     /* Sizing - changes size of hero section */
     width: 100vw;
     height: 160vh;
-    
     /* Flexbox stuff */
     display: flex;
     justify-content: center;
     align-items: right;
-    
     /* Text styles */
     text-align: center;
     color: white;
-    
     /* Background styles */
- .hero {
-    background-image: url('https://i0.wp.com/afghanistanembassy.org.uk/english/wp-content/uploads/2013/12/Mazar-e-Sharif-Blue-Mosque.jpg'); 
+  background-image:      url('https://i0.wp.com/afghanistanembassy.org.uk/english/wp-content/uploads/2013/12/Mazar-e-Sharif-Blue-Mosque.jpg');
     background-size:95% 100%;
     background-position: center;
     background-repeat: no-repeat;
     background-attachment: scroll;
 }
-
 .hero h1 {
      /* change for the main          header size */
     /* Text styles */
     /* change for the main header size */
-
     font-size: 3em;
-    
     /* Margins */
     margin-top: 0;
     margin-bottom: 0.5em;
 }
-
 /* don't edit this */
 .jest-lite-report__status--pass {
   background: var(--color-pass);
 }
 .jest-lite-report__errors { display:none }
-
 iframe{
   margin:0 auto;
 }

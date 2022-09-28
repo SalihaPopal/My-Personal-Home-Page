@@ -32,7 +32,7 @@ main {
 .hero {
     /* Sizing - changes size of hero section */
     width: 100vw;
-    height: 120vh;
+    height: 100vh;
     /* Flexbox stuff */
     display: flex;
     justify-content: center;

@@ -46,3 +46,30 @@ document.getElementById('submit').addEventListener('click', (event) => {
   element_names.appendChild(new_div);
 
 });
+
+document.getElementById('but1').addEventListener('click', (event) => {
+  let element_list_2 = document.getElementById('list_2');
+  let new_li = document.createElement('li');
+  new_li.innerText = 'Mobile';
+
+  element_list_2.appendChild(new_li);
+
+});
+
+document.getElementById('but2').addEventListener('click', (event) => {
+  let element_list_22 = document.getElementById('list_2');
+  let new_li2 = document.createElement('li');
+  new_li2.innerText = 'Headphone';
+
+  element_list_22.appendChild(new_li2);
+
+});
+
+document.getElementById('but3').addEventListener('click', (event) => {
+  let element_list_23 = document.getElementById('list_2');
+  let new_li3 = document.createElement('li');
+  new_li3.innerText = 'iPad';
+
+  element_list_23.appendChild(new_li3);
+
+});
